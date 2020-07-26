@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { request, ENDPOINT } from './request';
 
 type Comment = {
@@ -100,8 +102,6 @@ export default async function getTicket(key: string) {
   const ticket = mapResponseToTicket(result);
 
   tickets[key] = ticket;
-
-  console.log('result', result);
 
   return ticket;
 }

@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { request, ENDPOINT } from './request';
 
 type Session = {
