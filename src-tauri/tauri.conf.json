@@ -10,9 +10,6 @@
     "embeddedServer": {
       "active": true
     },
-    "allowlist": {
-      "all": true
-    },
     "bundle": {
       "active": true,
       "targets": "all",
@@ -42,7 +39,7 @@
       "exceptionDomain": ""
     },
     "window": {
-      "title": "Tauri App",
+      "title": "Jira Desktop",
       "width": 800,
       "height": 600,
       "resizable": true,
